@@ -2,6 +2,13 @@ public class StringOps {
 
 	//static hello method
 	// take a string and print out "Hello string" or "Hello there" if blank
+	
+	public static String hello(String name){
+		if (!name.equals("")
+			return "Hello "+name;
+		 else
+		    return "Hello there";
+	}
 
 	//static  isPalindrome  
 	// write a method to check if the given string is a palindrome
